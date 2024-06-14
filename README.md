@@ -1,3 +1,3 @@
-<h1 >Hey, my name is Artem! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Hand%20with%20Fingers%20Splayed.png" alt="Hand with Fingers Splayed" width="14" height="14" /></h1><br><br>
-<h2>This is my first project in which I implement the acquired skills of working with <b>HTML</b> and <b>CSS</b> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="14" height="14" /></h2>
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h2>
+<h1 >Hey, my name is Artem! <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h2>This is my first project in which I implement the acquired skills of working with <b>HTML</b> and <b>CSS</b> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="32" height="32" /></h2>
+
