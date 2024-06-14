@@ -1,3 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
+}
+
+body {
+    background-color: #202020;
+}
+
+/* Имя */
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Род деятельности */
+h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: #c5c5c5
+}
+
+/* Основные заголовки */
+h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Зеленые скилы */
+h4 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #202020;
+    
+}
+
+/* Черные скилы */
+h5 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #00CC00;
+    
+}
+
+/* Основной текст */
+h6 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #c5c5c5;
+    margin-bottom: 5px;
+    
+}
+a {
+    color: #00CC00;
+}
+
+.page-content {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+#Avatar {
+    border-radius: 15px;
+    width: 250px;
+    height: 330px;
+    object-fit: cover;
+
+}
+
+.green-line {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.green-line1 {
+    background-color: #00CC00;
+    width: 10px;
+    height: 81px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.green-line2 {
+    background-color: #00CC00;
+    width: 10px;
+    height: 231px;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 50px;
+}
+
+.conteiner-info {
+    /* border: 1px solid #fff ; */
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    
+}
+
+.conteiner-name {
+    /* border: 1px solid #fff ; */
+
+}
+
+.conteiner-skills {
+    /* border: 1px solid #fff ; */
+
+    margin-top: 50px;
+}
+
+.skill-block-green {
+    background-color: #00CC00;
+    border-radius: 30px;
+    padding: 5px 15px;
+    display:inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-block-black {
+    background-color: #202020;
+    border: 1px solid #00CC00;
+    border-radius: 30px;
+    padding: 5px 15px;
+    display:inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#Design-Skills {
+    margin-top: 20px;
+}
+
+.conteiner-contacts {
+    /* border: 1px solid #fff ; */
+
+    margin-top: 50px;
+
+}
+
+.conteiner-education {
+    /* border: 1px solid #fff ; */
+
+    margin-top: 50px;
+
+}
+
+.conteiner-education-text {
+    display: flex;
+    flex-direction: row;
+}
+
+#Misis {
+    align-self: flex-start;
+    margin-right: 30px;
 }
