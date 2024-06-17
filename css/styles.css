@@ -112,8 +112,9 @@ a {
 }
 
 /* Адаптивка зеленой линии */
-@media (max-width:1833px) {
+@media (max-width:1170px) {
     .green-line2 {
+
         display: none;
     }
 }
@@ -142,7 +143,7 @@ a {
 .green-line2 {
     background-color: #00CC00;
     width: 10px;
-    height: 231px;
+    height: 275px;
     border-radius: 5px 0px 0px 5px;
     margin-top: 50px;
 }
