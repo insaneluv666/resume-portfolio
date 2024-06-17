@@ -116,10 +116,10 @@ a {
     
 }
 
-.conteiner-name {
-    /* border: 1px solid #fff ; */
+/* .conteiner-name {
 
-}
+
+}  */
 
 .conteiner-skills {
     /* border: 1px solid #fff ; */
@@ -172,4 +172,12 @@ a {
 #Misis {
     align-self: flex-start;
     margin-right: 30px;
+}
+
+.conteiner-about-me {
+    line-height: 25px;
+}
+
+#about-focus {
+    color: #fff;
 }
