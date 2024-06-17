@@ -78,6 +78,46 @@ a {
     margin-left: 300px;
 }
 
+/* Общая адаптивка */
+@media (max-width:1680px) {
+    .page-content{
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+}
+@media (max-width:1470px) {
+    .page-content{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+@media (max-width:1130px) {
+    .page-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .green-line1 {
+        display: none;
+    }
+    #Avatar {
+        margin-bottom: 50px;
+    }
+    .conteiner-education-text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Misis {
+        margin-bottom: 20px;
+    }
+}
+
+/* Адаптивка зеленой линии */
+@media (max-width:1833px) {
+    .green-line2 {
+        display: none;
+    }
+}
+
 #Avatar {
     border-radius: 15px;
     width: 250px;
@@ -116,10 +156,6 @@ a {
     
 }
 
-/* .conteiner-name {
-
-
-}  */
 
 .conteiner-skills {
     /* border: 1px solid #fff ; */
@@ -176,6 +212,7 @@ a {
 
 .conteiner-about-me {
     line-height: 25px;
+    margin-top: 50px;
 }
 
 #about-focus {
