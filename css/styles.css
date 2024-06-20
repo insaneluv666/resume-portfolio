@@ -76,6 +76,7 @@ a {
     margin-top: 80px;
     margin-right: 300px;
     margin-left: 300px;
+
 }
 
 /* Общая адаптивка */
@@ -96,35 +97,27 @@ a {
         flex-direction: column;
         align-items: center;
     }
-    .green-line1 {
-        display: none;
+
+}
+@media (max-width:900px) {
+    .page-content{
+        margin-right: 30px;
+        margin-left: 30px;
     }
-    #Avatar {
-        margin-bottom: 50px;
+
+    .conteiner-info {
+        
+        margin-left: 0px !important;
     }
-    .conteiner-education-text {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    #Misis {
-        margin-bottom: 20px;
-    }
+
 }
 
-/* Адаптивка зеленой линии */
-@media (max-width:1170px) {
-    .green-line2 {
 
-        display: none;
-    }
-}
-
-#Avatar {
+.avatar {
     border-radius: 15px;
-    width: 250px;
-    height: 330px;
-    object-fit: cover;
-
+    max-width: 258px;
+    max-height: 330px;
+    margin-bottom: 50px;
 }
 
 .conteiner-info {
@@ -191,18 +184,16 @@ a {
 .conteiner-education-text {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-#Misis {
+.misis-logo {
     align-self: flex-start;
     margin-right: 30px;
+    margin-bottom: 20px;
 }
 
 .conteiner-about-me {
     line-height: 25px;
     margin-bottom: 50px;
-}
-
-#about-focus {
-    color: #fff;
 }
