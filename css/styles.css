@@ -157,11 +157,13 @@ a {
     
 }
 
+.conteiner-name {
+    margin-bottom: 50px;
+}
 
 .conteiner-skills {
     /* border: 1px solid #fff ; */
-
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .skill-block-green {
@@ -185,19 +187,20 @@ a {
 
 #Design-Skills {
     margin-top: 20px;
+    
 }
 
 .conteiner-contacts {
     /* border: 1px solid #fff ; */
 
-    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
 .conteiner-education {
     /* border: 1px solid #fff ; */
 
-    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -213,7 +216,7 @@ a {
 
 .conteiner-about-me {
     line-height: 25px;
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #about-focus {
