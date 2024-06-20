@@ -53,7 +53,7 @@ h5 {
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
-    color: #00CC00;
+    color: #21A049;
     
 }
 
@@ -68,7 +68,7 @@ h6 {
     
 }
 a {
-    color: #00CC00;
+    color: #21A049;
 }
 
 .page-content {
@@ -134,14 +134,14 @@ a {
 }
 
 .green-line1 {
-    background-color: #00CC00;
+    background-color: #21A049;
     width: 10px;
     height: 81px;
     border-radius: 5px 0px 0px 5px;
 }
 
 .green-line2 {
-    background-color: #00CC00;
+    background-color: #21A049;
     width: 10px;
     height: 275px;
     border-radius: 5px 0px 0px 5px;
@@ -167,7 +167,7 @@ a {
 }
 
 .skill-block-green {
-    background-color: #00CC00;
+    background-color: #21A049;
     border-radius: 16px;
     padding: 5px 15px;
     display:inline-block;
@@ -177,7 +177,7 @@ a {
 
 .skill-block-black {
     background-color: #202020;
-    border: 1px solid #00CC00;
+    border: 1px solid #21A049;
     border-radius: 16px;
     padding: 5px 15px;
     display:inline-block;
