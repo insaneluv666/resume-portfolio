@@ -168,7 +168,7 @@ a {
 
 .skill-block-green {
     background-color: #00CC00;
-    border-radius: 30px;
+    border-radius: 16px;
     padding: 5px 15px;
     display:inline-block;
     margin-right: 10px;
@@ -178,7 +178,7 @@ a {
 .skill-block-black {
     background-color: #202020;
     border: 1px solid #00CC00;
-    border-radius: 30px;
+    border-radius: 16px;
     padding: 5px 15px;
     display:inline-block;
     margin-right: 10px;
