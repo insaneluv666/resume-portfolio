@@ -44,7 +44,6 @@ h4 {
     font-style: normal;
     font-size: 18px;
     color: #202020;
-    
 }
 
 /* Черные скилы */
@@ -54,7 +53,6 @@ h5 {
     font-style: normal;
     font-size: 18px;
     color: #21A049;
-    
 }
 
 /* Основной текст */
@@ -65,18 +63,10 @@ h6 {
     font-size: 18px;
     color: #c5c5c5;
     margin-bottom: 5px;
-    
 }
-a {
+
+.link {
     color: #21A049;
-}
-
-.page-content {
-    display: flex;
-    margin-top: 80px;
-    margin-right: 300px;
-    margin-left: 300px;
-
 }
 
 /* Общая адаптивка */
@@ -86,19 +76,21 @@ a {
         margin-left: 200px;
     }
 }
+
 @media (max-width:1470px) {
     .page-content{
         margin-right: 100px;
         margin-left: 100px;
     }
 }
+
 @media (max-width:1130px) {
     .page-content{
         flex-direction: column;
         align-items: center;
     }
-
 }
+
 @media (max-width:900px) {
     .page-content{
         margin-right: 30px;
@@ -109,9 +101,14 @@ a {
         
         margin-left: 0px !important;
     }
-
 }
 
+.page-content {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
 
 .avatar {
     border-radius: 15px;
@@ -126,7 +123,6 @@ a {
     margin-left: 70px;
 }
 
-
 .conteiner-name {
     margin-bottom: 50px;
     padding-left: 30px;
@@ -135,8 +131,6 @@ a {
 }
 
 .conteiner-skills {
-    /* border: 1px solid #fff ; */
-    
     margin-bottom: 50px;
     padding-left: 30px;
     border-left: 10px #21A049 solid;
@@ -164,21 +158,14 @@ a {
 
 #Design-Skills {
     margin-top: 20px;
-    
 }
 
 .conteiner-contacts {
-    /* border: 1px solid #fff ; */
-
     margin-bottom: 50px;
-
 }
 
 .conteiner-education {
-    /* border: 1px solid #fff ; */
-
     margin-bottom: 50px;
-
 }
 
 .conteiner-education-text {
