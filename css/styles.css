@@ -65,11 +65,12 @@ h6 {
     margin-bottom: 5px;
 }
 
+/* Ссылки */
 .link {
     color: #21A049;
 }
 
-/* Общая адаптивка */
+/* Адаптивка */
 @media (max-width:1680px) {
     .page-content{
         margin-right: 200px;
