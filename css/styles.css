@@ -70,40 +70,6 @@ h6 {
     color: #21A049;
 }
 
-/* Адаптивка */
-@media (max-width:1680px) {
-    .page-content{
-        margin-right: 200px;
-        margin-left: 200px;
-    }
-}
-
-@media (max-width:1470px) {
-    .page-content{
-        margin-right: 100px;
-        margin-left: 100px;
-    }
-}
-
-@media (max-width:1130px) {
-    .page-content{
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (max-width:900px) {
-    .page-content{
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-
-    .conteiner-info {
-        
-        margin-left: 0px !important;
-    }
-}
-
 .page-content {
     display: flex;
     margin-top: 80px;
@@ -112,7 +78,7 @@ h6 {
 }
 
 .avatar {
-    max-width: 258px;
+    max-width: 240px;
     max-height: 330px;
     margin-bottom: 50px;
 }
@@ -183,4 +149,40 @@ h6 {
 .conteiner-about-me {
     line-height: 25px;
     margin-bottom: 50px;
+}
+
+
+
+
+/* Адаптивка */
+@media (max-width:1680px) {
+    .page-content{
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+}
+
+@media (max-width:1470px) {
+    .page-content{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:1130px) {
+    .page-content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:900px) {
+    .page-content{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .conteiner-info {
+        margin-left: 0px !important;
+    }
 }
