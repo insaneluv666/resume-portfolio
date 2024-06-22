@@ -72,9 +72,16 @@ h6 {
 
 .page-content {
     display: flex;
+    flex-direction: column;
     margin-top: 80px;
     margin-right: 300px;
     margin-left: 300px;
+}
+
+
+/* Главная информация */
+.main-info {
+    display: flex;
 }
 
 .avatar {
@@ -151,6 +158,45 @@ h6 {
     margin-bottom: 50px;
 }
 
+.split-page {
+
+    background-color: #303030;
+    border-radius: 2px;
+    height: 4px;
+    margin-bottom: 50px;
+}
+
+
+/* Портфолио */
+.portfolio {
+    margin-bottom: 50px;
+}
+
+.portfolio-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    
+}
+
+.button-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21A049;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: #21A049 solid;
+    margin: 0px 50px;
+}
+
+.button-style:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+
 
 
 
@@ -169,10 +215,20 @@ h6 {
     }
 }
 
-@media (max-width:1130px) {
+@media (max-width:1200px) {
     .page-content{
-        flex-direction: column;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    .main-info {
         align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .conteiner-info {
+        margin-left: 0px;
     }
 }
 
@@ -180,9 +236,5 @@ h6 {
     .page-content{
         margin-right: 30px;
         margin-left: 30px;
-    }
-
-    .conteiner-info {
-        margin-left: 0px !important;
     }
 }
