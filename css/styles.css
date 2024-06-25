@@ -179,19 +179,29 @@ h6 {
 }
 
 .button-style {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #21A049;
+    width: 170px;
     padding: 15px 30px;
-    border-radius: 15px;
-    border: #21A049 solid;
-    margin: 0px 50px;
+    margin: 0px 10px;
+    cursor: pointer;
 }
 
-.button-style:hover {
-    opacity: 0.7;
-    cursor: pointer;
+
+#buttonDesign {
+    background-color: #21A049;
+    border-radius: 15px;
+    border: #21A049 solid;
+}
+#buttonDesignValue {
+    color: #202020;
+}
+
+#buttonDev {
+    background-color: transparent;
+    border-radius: 15px;
+    border: #21A049 solid;
+}
+#buttonDevValue {
+    color: #21A049;
 }
 
 
@@ -235,5 +245,16 @@ h6 {
     .page-content{
         margin-right: 30px;
         margin-left: 30px;
+    }
+    .button-style {
+        padding: 15px 30px;
+        margin: 0px 2px;
+        cursor: pointer;
+    }
+    #buttonDesign {
+        border-radius: 15px 0px 0px 15px !important;
+    }
+    #buttonDev {
+        border-radius: 0px 15px 15px 0px !important;
     }
 }
