@@ -1,3 +1,4 @@
+// Обработчик кнопки Дизайн
 document.getElementById('buttonDesign').onclick = function() {
 
     document.getElementById('buttonDesign').style.cssText = 'background-color: #21A049;'
@@ -10,6 +11,7 @@ document.getElementById('buttonDesign').onclick = function() {
     document.getElementById('portfolioDev').hidden = true;
 }
 
+//Обработчик кнопки Разработка
 document.getElementById('buttonDev').onclick = function() {
 
     document.getElementById('buttonDesign').style.cssText = 'background-color: transparent;'

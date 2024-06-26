@@ -78,6 +78,19 @@ h6 {
     margin-left: 300px;
 }
 
+.header-style {
+    display: flex;
+    height: 50px;
+    background: #21A049;
+    justify-content: center;
+    align-items: center;
+}
+.header-style h3 {
+    color: #202020;
+    margin-bottom: 0px;
+    height: 28px;
+
+}
 
 /* Главная информация */
 .main-info {
@@ -224,6 +237,7 @@ h6 {
 
 @media (max-width:1200px) {
     .page-content{
+        margin-top: 50px;
         margin-right: 60px;
         margin-left: 60px;
     }
@@ -236,6 +250,21 @@ h6 {
 
     .conteiner-info {
         margin-left: 0px;
+    }
+
+    .header-style {
+        display: flex;
+        height: 30px;
+        background: #21A049;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-style h3 {
+        font-size: 18px;
+        color: #202020;
+        margin-bottom: 0px;
+        height: 20px;
+    
     }
 }
 
@@ -250,10 +279,5 @@ h6 {
         margin: 0px 2px;
         cursor: pointer;
     }
-    #buttonDesign {
-        border-radius: 15px 0px 0px 15px !important;
-    }
-    #buttonDev {
-        border-radius: 0px 15px 15px 0px !important;
-    }
+
 }
