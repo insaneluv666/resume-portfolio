@@ -215,6 +215,119 @@ h6 {
     color: #21A049;
 }
 
+/* ПОРТФОЛИО ДИЗАЙН */
+.portfolio-buttons-extra {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.button-style-extra {
+    width: 300px;
+    padding: 15px 30px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+#buttonLogos {
+    background-color: #21A049;
+    border-radius: 15px 0px 0px 15px;
+    border: #21A049 solid;
+}
+#buttonLogosValue {
+    color: #202020;
+}
+
+#buttonBanners {
+    background-color: transparent;
+    border-radius: 0px 0px 0px 0px;
+    border: #21A049 solid;
+}
+#buttonBannersValue {
+    color: #21A049;
+}
+
+#buttonTours {
+    background-color: transparent;
+    border-radius: 0px 15px 15px 0px;
+    border: #21A049 solid;
+}
+#buttonToursValue {
+    color: #21A049;
+}
+
+.portfolio-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.example-block1 {
+    margin: 20px 10px 20px 10px;
+    padding: 20px;
+    border: #303030 2px solid;
+    border-radius: 15px
+}
+.example-block1 h2 {
+    margin-bottom: 10px;
+}
+
+.portfolio-image-logo {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.portfolio-banners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.example-block2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 20px 10px;
+    padding: 20px;
+    border: #303030 2px solid;
+    border-radius: 15px;
+}
+.example-block2 h2 {
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+.portfolio-image-banner {
+    border-radius: 15px;
+    width: 800px;
+    margin-bottom: 10px;
+
+}
+
+.portfolio-tours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.example-block3 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 20px 10px;
+    padding: 20px;
+    border: #303030 2px solid;
+    border-radius: 15px
+}
+.example-block3 h2 {
+    margin-bottom: 10px;
+    display:inline-block;
+}
+.portfolio-image-tour {
+    border-radius: 15px;
+    width: 800px;
+    margin-bottom: 10px;
+
+}
+
+
 
 
 
@@ -273,11 +386,81 @@ h6 {
         margin-right: 30px;
         margin-left: 30px;
     }
-    .button-style {
-        width: 170px;
+
+    .portfolio-buttons-extra {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 30px 0px;
+    }
+    
+    .button-style-extra {
+        width: 300px;
         padding: 15px 30px;
-        margin: 0px 2px;
+        margin: 2px 2px;
         cursor: pointer;
     }
 
+    #buttonLogos {
+        border-radius: 15px 0px 0px 15px;
+    }
+    #buttonBanners {
+        border-radius: 0px 15px 15px 0px;
+    }
+    #buttonTours {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .portfolio-image-banner {
+        width: 500px;
+    }
+    .portfolio-image-tour {
+        width: 500px;
+    }
+}
+
+@media (max-width:700px) {
+
+    .portfolio-buttons-extra {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #buttonLogos {
+        border-radius: 15px;
+    }
+    #buttonBanners {
+        border-radius: 15px;
+    }
+    #buttonTours {
+        border-radius: 15px;
+    }
+
+    .portfolio-image-banner {
+        width: 300px;
+    }
+    .portfolio-image-tour {
+        width: 300px;
+    }
+
+    .example-block2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 10px 20px 10px;
+        padding: 20px;
+        border: #303030 2px solid;
+        border-radius: 15px
+    }
+
+    .example-block3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 10px 20px 10px;
+        padding: 20px;
+        border: #303030 2px solid;
+        border-radius: 15px
+    }
 }
