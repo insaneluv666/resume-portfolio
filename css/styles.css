@@ -25,6 +25,7 @@ h2 {
     font-style: normal;
     font-size: 24px;
     color: #c5c5c5
+    
 }
 
 /* Основные заголовки */
@@ -164,6 +165,7 @@ h6 {
     align-self: flex-start;
     margin-right: 30px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .conteiner-about-me {
@@ -318,7 +320,7 @@ h6 {
 }
 .example-block3 h2 {
     margin-bottom: 10px;
-    display:inline-block;
+    display:inline-block !important;
 }
 .portfolio-image-tour {
     border-radius: 15px;
@@ -327,7 +329,18 @@ h6 {
 
 }
 
-
+.portfolio-sites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio-video-sites {
+    padding: 1px;
+    border-radius: 15px;
+    width: 800px;
+    margin-bottom: 10px;
+    border: #303030 1px solid;
+}
 
 
 
@@ -417,6 +430,10 @@ h6 {
     .portfolio-image-tour {
         width: 500px;
     }
+    .portfolio-video-sites {
+        width: 500px;
+    }
+    
 }
 
 @media (max-width:700px) {
@@ -441,6 +458,9 @@ h6 {
         width: 300px;
     }
     .portfolio-image-tour {
+        width: 300px;
+    }
+    .portfolio-video-sites {
         width: 300px;
     }
 

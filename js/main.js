@@ -1,3 +1,7 @@
+document.getElementById('misisLogo').onclick = function () {
+    window.open('https://misis.ru/');
+}
+
 // Обработчик кнопки Дизайн
 document.getElementById('buttonDesign').onclick = function() {
 
