@@ -12,7 +12,7 @@ Here I implement the acquired skills of working with <b>HTML</b>, <b>CSS</b> and
 
 <h1>Deploying<h1>
 <p>For hosting I use Firebase by Google</p>
-<p>To deploy project you need:<br>
+<p>To deploy project you need:</p><br>
 <ol>
 <li>Create project in Firebase</li>
 <li>Install NodeJS</li>
