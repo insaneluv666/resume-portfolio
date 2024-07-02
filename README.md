@@ -10,7 +10,7 @@ Here I implement the acquired skills of working with <b>HTML</b>, <b>CSS</b> and
 </ul><br>
 <p>To launch a development local Server you can use "Live Server" extansion</p>
 
-<h1>Deploying<h1>
+<h1>Deploying</h1>
 <p>For hosting I use Firebase by Google</p>
 <p>To deploy project you need:</p><br>
 <ol>
@@ -20,4 +20,4 @@ Here I implement the acquired skills of working with <b>HTML</b>, <b>CSS</b> and
 <li>Init project</li>
 <li>Deploy project</li>
 </ol><br>
-<a href="https://firebase.google.com/docs/hosting?hl=en&authuser=1">Firebase hosting instruction</a><br><br>
+<a href="https://firebase.google.com/docs/hosting?hl=en&authuser=1">Firebase hosting instruction</a>
