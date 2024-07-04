@@ -15,7 +15,7 @@ Here I implement the acquired skills of working with <b>HTML</b>, <b>CSS</b> and
 <p>To deploy project you need:</p>
 <ol>
 <li>Create project in Firebase</li>
-<li>Install NodeJS</li>
+<li>Install NodeJS and Firebase</li>
 <li>Login to Firebase in your IDE</li>
 <li>Init project</li>
 <li>Deploy project</li>
