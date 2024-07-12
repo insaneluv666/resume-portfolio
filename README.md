@@ -20,4 +20,4 @@ Here I implement the acquired skills of working with <b>HTML</b>, <b>CSS</b> and
 <li>Init project</li>
 <li>Deploy project</li>
 </ol><br>
-<a href="https://firebase.google.com/docs/hosting?hl=en&authuser=1">Firebase hosting instruction</a>
+<a href="https://firebase.google.com/docs/hosting?hl=en&authuser=1">Firebase hosting instruction.</a>
