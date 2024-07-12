@@ -1,6 +1,6 @@
-<h1>Hey, my name is Artem! <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h1>Hey, my name is Artem!</h1>
 <p>This is my first project in which I created my own Portfolio Landing. <br>
-Here I implement the acquired skills of working with <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="32" height="32" /></p>
+Here I implement the acquired skills of working with <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>.</p>
 <h1>Usage</h1>
 <p>The following programming languages are used in this project:</p>
 <ul>
